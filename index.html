@@ -1,11 +1,170 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Responsive Portfolio Website</title>
+	<!---custom css link---->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<link rel="stylesheet"href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
 </head>
 <body>
-    <h1>HELLO WORLD</h1>
+	<!------Header Section------>
+	<header>
+		<a href="#" class="logo">Port<span>fo</span>lio..</a>
+		<ul class="navlist">
+			<li><a href="#home" class="active">Home</a></li>
+			<li><a href="#about">About Me</a></li>
+			<li><a href="#services">Services</a></li>
+			<li><a href="#portfolio">Portfolio</a></li>
+			<li><a href="#contact">Contact</a></li>
+		</ul>
+		<div class="bx bx-menu" id="menu-icon"></div>
+	</header>
+
+	<!---------Home Section--------------->
+	<section class="home" id="home">
+		<div class="home-text">
+			<div class="slide">
+				<span class="one">Hello</span>
+				<span class="two">I'm</span>
+			</div>
+			<h1>Shaswat Surya</h1>
+			<h3>Website <span>Designer.</span></h3>
+			<p>web Developer with experience that keep customers <br> coming for about services make best effort.</p>
+			<div class="button">
+				<a href="#" class="btn">About Me</a>
+			</div>
+		</div>
+	</section>
+
+	<!---------about Section --------------->
+	<section class="about" id="about">
+		<div class="about-img">
+			<img src="img/images.jpg">
+		</div>
+
+		<div class="about-text">
+			<h2>About <span>Me</span></h2>
+			<h4>Website Designer!</h4>
+			<p>I am a front-end developer. I can provide clean code
+				and pixel perfect design. I also make the website more &
+				more interactive with web animations. I can provide clean
+				code and pixel perfect designs.I also make the website more
+				& more interactive with web animations.A responsive design
+				makes your website accesible to all users. regardless of their device.
+				</p>
+				<a href="#" class="btn">More About</a>
+		</div>
+	</section>
+
+	<!-----------Services Section-------------->
+	<section class="services" id="services">
+	<div class="main-text">
+		<h2><span>My</span>Services</h2>
+	</div>
+	<div class="services-content">
+		<div class="box">
+			<div class="s-icons">
+				<i class='bx bx-mobile-alt'></i>
+			</div>
+			<h3>Web Design</h3>
+			<p>Creating elegant and eyecatching websites with great responsive features using HTML, CSS & JAVASCRIPT
+				and other AI tools.
+			</p>
+			<a href="#" class="btn">Read More</a>
+		</div>
+
+		<div class="box">
+			<div class="s-icons">
+				<i class='bx bx-code-alt'></i>
+			</div>
+			<h3>Creative Design</h3>
+			<p>Creating eyecatching user interfaces and providing user experience that has been never experienced before.</p>
+			<a href="#" class="btn">Read More</a>
+		</div>
+
+		<div class="box">
+			<div class="s-icons">
+				<i class='bx bx-edit-alt'></i>
+			</div>
+			<h3>Web Consulting</h3>
+			<p>One Way to categories the activities is in terms of the professional's area of experience such as competitive analysis, corporate stragety.</p>
+			<a href="#" class="btn">Read More</a>
+		</div>
+	</div>
+
+</section>
+
+<!-----------Portfolio Section--------------->
+<section class="portfolio" id="portfolio">
+	<div class="main-text">
+		<h2><span>latest</span>Project</h2>
+	</div>
+	<div class="portfolio-content">
+		<div class="row">
+			<img src="img/project1.jpg" >
+			<div class="layer">
+				<h5>Instagram Clone</h5>
+				<p>I have created a exact replica of instagram landing page with responsive reactions and stories.</p>
+				<a href="#"> <i class='bx bx-link-external'></i></a>
+			</div>
+		</div>
+
+		<div class="row">
+			<img src="img/project2.jpg" >
+			<div class="layer">
+				<h5>Personal Portfolio</h5>
+				<p>I have designed my own completely responsive personal portfolio with pure HTML and CSS.</p>
+				<a href="#"> <i class='bx bx-link-external'></i></a>
+			</div>
+		</div>
+
+		<div class="row">
+			<img src="img/project3.jpg" >
+			<div class="layer">
+				<h5>Responsive Shopping website</h5>
+				<p>I have created a responsive tshirt shopping website with HTML, CSS & JS</p>
+				<a href="#"> <i class='bx bx-link-external'></i></a>
+			</div>
+		</div>
+	</div>
+
+</section>
+
+<!------------------Contact section------------>
+<section class="contact" id="contact">
+	<div class="contact-text">
+		<h2>Contact <span>Me!</span></h2>
+		<h4>If you have any project in your mind.</h4>
+		<p>I'm a website Designer - creating bold & brave interface design for compaines all across the world.</p>
+		<div class="list">
+			<li><a href="#">+91 8825428416</a></li>
+			<li><a href="#">shaswatsurya12@gmail.com</a></li>
+			<li><a href="#"></a></li>
+		</div>
+
+		<div class="contact-icons">
+			<a href="#"><i class='bx bxl-linkedin'></i></a>
+			<a href="#"><i class='bx bxl-twitter' ></i></a>
+			<a href="#"><i class='bx bxl-instagram-alt' ></i></a>
+			<a href="#"><i class='bx bxl-github' ></i></a>
+		</div>
+
+	</div>
+	<div class="contact-form">
+		<form action="">
+			<input type="name" placeholder="Your Name " required>
+			<input type="email" placeholder="Your Email " required>
+			<input type="number" placeholder="your Mobile Number" required>
+			<textarea name="" id="" cols="35" rows="10" placeholder="How Can I Help You " required></textarea>
+			<input type="submit" value="Send Message" class="submit" required>
+		</form>
+
+	</div>
+</section>
 </body>
+
 </html>
